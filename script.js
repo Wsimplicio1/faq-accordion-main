@@ -10,16 +10,16 @@ for(let i = 0; i < toggles.length; i++){
         } else {
             contents[i].classList.add('hidden');
             icon[i].src = '/images/icon-plus.svg';
-        }
+        };
 
         for(let c = 0; c < contents.length; c++){
             if(c!=i){
                 contents[c].classList.add('hidden');
                 icon[c].src = '/images/icon-plus.svg';
-            }
-        }
-    })
-}
+            };
+        };
+    });
+};
 
 
 
