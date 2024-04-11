@@ -83,10 +83,12 @@ body {
 .content {
     font-size: 15px;
     color:hsl(292, 16%, 49%);
-    display: none;
     padding-bottom: 1rem;
 }
 
+.hidden {
+    display: none;
+}
 
 /*04------responsive-layout------*/
 
@@ -109,6 +111,8 @@ body {
         padding-right: 1.4rem;
     }
 }
+
+
 
 
 
